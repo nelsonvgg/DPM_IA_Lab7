@@ -14,7 +14,7 @@ start_http_server(9092)
 #     'request_count', 'Recommendation Request Count',
 #     ['http_status']
 # )
-
+#
 REQUEST_COUNT = Counter('request_count', 'Recommendation Request Count', ['http_status'])
 REQUEST_LATENCY = Histogram('request_latency_seconds', 'Request latency')
 
